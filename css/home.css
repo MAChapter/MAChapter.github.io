@@ -1,11 +1,6 @@
-:root {
-    --highlight-border: #0035e28f;
-    --highlight: rgba(15, 60, 228, 0.17);
-    --button-color: rgba(109, 137, 236, 1);
-    --more-info-color: #888888;
-    --more-info-shadow: #888888ea;
-    --link-color: rgba(0, 51, 226, 1);
-    --heading-color: #000000;
-    --body-color: #5C5C5C;
-    --grey-section-color: #DFDFDF;
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
 }
+
