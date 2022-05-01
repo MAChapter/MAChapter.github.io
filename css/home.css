@@ -124,6 +124,63 @@ header {
     right: 50px;
 }
 
+/* About Material Advantage, Ishaan */
+.aboutMaterialAdvantage{
+    width:50%;
+    margin: 4rem auto;
+}
+
+.aboutMAHeading{
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 3.1rem;
+}
+
+.aboutMALine{
+    width: 100%;
+    height: 1px;
+    background-color: #B6B5B5;
+    margin-top: 0.4rem;
+}
+
+.aboutMADesc{
+    font-family: "Roboto", sans-serif;
+    font-size: 1.4rem;
+    color: #5C5C5C;
+    text-align: justify;
+}
+
+.aboutMAButtons{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    column-gap: 35px;
+}
+
+.abtMAButton{
+    height: 3.2rem;
+    width: 12rem;
+    border-style: none;
+    border-radius: 20px;
+    box-shadow: 1px 3px 4px #888888d0;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.25rem;
+}
+
+.abtMAButton:hover{
+    cursor: pointer;
+}
+
+.registerBtn{
+    background-color: #6D89EC;
+    color: white;
+}
+
+.moreInfoBtn{
+    background-color: white;
+    color: #888888;
+}
+
 /* Footer Section, Sanya */
 
 a {
