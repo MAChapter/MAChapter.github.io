@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto:wght@100&display=swap');
+
+/* 
+font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif;
+ */
+
 :root {
     --highlight-border: #0035e28f;
     --highlight: rgba(15, 60, 228, 0.17);
