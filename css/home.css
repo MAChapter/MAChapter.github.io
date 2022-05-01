@@ -62,7 +62,9 @@ header .logo-container img {
     display: none;
 }
 
-@media only screen and (max-width: 700px) {
+
+/* Responsive navbar (for later) */
+/* @media only screen and (max-width: 700px) {
     .navbar {
         display: none;
     }
@@ -74,12 +76,31 @@ header .logo-container img {
     .mobile-navbar {
         display: block;
     }
-}
-body {
-    min-height: 100vh;
+} */
+
+/* Hero Section, Saksham Kathuria */
+
+.hero-section {
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
 }
+
+.hero-image{
+    width: 100%;
+    opacity: 0.7;
+    z-index: 0;
+    filter: blur(3px);
+}
+
+.hero-logo {
+    position: absolute;
+    z-index: 1;
+}
+
+
 
 a {
     text-decoration: none;
