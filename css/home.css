@@ -9,6 +9,7 @@ body {
     min-height: 100vh;
 }
 
+
 /* navbar starts here */
 
 header {
@@ -22,7 +23,6 @@ header {
     display: flex;
     height: 52px;
     justify-content: center;
-
     background-color: #fff;
 }
 
@@ -41,7 +41,6 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-
     margin-left: 20px;
 }
 
@@ -49,11 +48,9 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    
-    font-size: max(1rem,1vw);
+    font-size: max(1rem, 1vw);
     font-family: 'Roboto', sans-serif;
     font-weight: 900;
-
     padding: 1rem;
     text-align: center;
 }
@@ -62,7 +59,7 @@ header {
     background-color: var(--highlight);
 }
 
-.navbar .active{
+.navbar .active {
     background-color: var(--highlight);
     border-bottom: 4px solid var(--highlight-border);
 }
@@ -73,6 +70,8 @@ header {
 
 
 /* Responsive navbar (for later) */
+
+
 /* @media only screen and (max-width: 700px) {
     .navbar {
         display: none;
@@ -87,17 +86,17 @@ header {
     }
 } */
 
+
 /* Hero Section, Saksham Kathuria */
 
 .hero-section {
     display: flex;
     justify-content: center;
     align-items: center;
-
     position: relative;
 }
 
-.hero-image{
+.hero-image {
     width: 100%;
     opacity: 0.58;
     z-index: 0;
@@ -110,7 +109,6 @@ header {
 
 .vit-logo {
     width: 200px;
-
     position: absolute;
     top: 0;
     left: 50px;
@@ -118,46 +116,47 @@ header {
 
 .asm-logo {
     width: 100px;
-
     position: absolute;
     top: 35px;
     right: 50px;
 }
 
+
 /* About Material Advantage, Ishaan */
-.aboutMaterialAdvantage{
-    width:50%;
+
+.aboutMaterialAdvantage {
+    width: 50%;
     margin: 4rem auto;
 }
 
-.aboutMAHeading{
+.aboutMAHeading {
     font-family: "Montserrat", sans-serif;
     font-weight: bold;
     font-size: 3.1rem;
 }
 
-.aboutMALine{
+.aboutMALine {
     width: 100%;
     height: 1px;
     background-color: #B6B5B5;
     margin-top: 0.4rem;
 }
 
-.aboutMADesc{
+.aboutMADesc {
     font-family: "Roboto", sans-serif;
     font-size: 1.4rem;
     color: #5C5C5C;
     text-align: justify;
 }
 
-.aboutMAButtons{
+.aboutMAButtons {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     column-gap: 35px;
 }
 
-.abtMAButton{
+.abtMAButton {
     height: 3.2rem;
     width: 12rem;
     border-style: none;
@@ -167,19 +166,20 @@ header {
     font-size: 1.25rem;
 }
 
-.abtMAButton:hover{
+.abtMAButton:hover {
     cursor: pointer;
 }
 
-.registerBtn{
+.registerBtn {
     background-color: #6D89EC;
     color: white;
 }
 
-.moreInfoBtn{
+.moreInfoBtn {
     background-color: white;
     color: #888888;
 }
+
 
 /* Footer Section, Sanya */
 
@@ -223,6 +223,7 @@ a {
 }
 
 footer {
+    /* position: fixed; */
     margin-top: auto 0;
     margin-bottom: 0%;
     padding: 0%;
@@ -263,10 +264,13 @@ footer {
 
 .btn {
     background-color: var(--button-color);
+    box-shadow: var(--more-info-shadow);
     border-radius: 20%;
     width: 150%;
-    height: 10%;
+    height: 15%;
     border: none;
+    margin-top: 120%;
+    margin-left: 90%;
 }
 
 
@@ -274,3 +278,11 @@ footer {
 #button {
     padding: 30%;
 } */
+
+.footbar {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    gap: 30px;
+    margin-top: 59%;
+}
