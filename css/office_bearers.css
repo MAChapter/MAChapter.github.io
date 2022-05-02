@@ -1,0 +1,66 @@
+
+.office-bearer-title-section{
+    background-color: var(--grey-section-color);
+    height: 233px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.office-bearer-title-section > h1 {
+    width: 75%;
+
+    font-family: 'Monsterrat', sans-serif;
+    font-weight: 600;
+
+    font-size: 2.6rem;
+}
+
+.office-bearer-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 5% 0;
+}
+
+.office-bearers-container {
+    width: 70%;
+
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    place-items: center;
+    gap: 60px;
+}
+
+.bearer-card {
+    width: 310px;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.bearer-card > img {
+    width: 248px;
+
+    border-radius: 50%;
+}
+
+.bearer-card > h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 1.4rem;
+}
+
+.bearer-card > p, .bearer-card > a{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+.bearer-card a {
+    font-size: 0.8rem;
+}
