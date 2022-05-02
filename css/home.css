@@ -202,17 +202,28 @@ header {
     flex-direction: row;
     gap: 2%;
     padding-left: 30%;
+
+    margin: 50px 0 ;
 }
 
 .calendar {
-    width: 20%;
-    height: 20%;
+    width: 181px;
     padding-top: 1%;
+}
+
+.detail1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
 }
 
 .up {
     color: var(--body-color);
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
 
 .watch {
@@ -263,6 +274,13 @@ h1 {
     -moz-column-gap: 5px;
     column-count: 5;
     column-gap: 5px;
+}
+
+.galleryLine {
+    width: 60%;
+    height: 1px;
+    background-color: #B6B5B5;
+    margin-top: 0.4rem;
 }
 
 #gallery img {
