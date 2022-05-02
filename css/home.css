@@ -150,7 +150,7 @@ header {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 1.4rem;
-    color: #5C5C5C;
+    color: var(--body-color);
     text-align: justify;
 }
 
@@ -166,7 +166,7 @@ header {
     width: 12rem;
     border-style: none;
     border-radius: 20px;
-    box-shadow: 1px 3px 4px #888888d0;
+    box-shadow: 1px 3px 4px var(--more-info-shadow);
     font-family: "Montserrat", sans-serif;
     font-size: 1.25rem;
 }
@@ -176,13 +176,13 @@ header {
 }
 
 .registerBtn {
-    background-color: #6D89EC;
+    background-color: var(--button-color);
     color: white;
 }
 
 .moreInfoBtn {
     background-color: white;
-    color: #888888;
+    color: var(--more-info-color);
 }
 
 
@@ -200,7 +200,7 @@ footer a {
     justify-content: center;
     align-items: center;
 
-    background-color: #DFDFDF;
+    background-color: var(--grey-section-color);
     height: 270px;
 }
 
@@ -253,40 +253,46 @@ footer a {
     font-size: 1.5rem;
 }
 
-footer {
-    /* position: fixed; */
-    margin-top: auto 0;
-    margin-bottom: 0%;
-    padding: 0%;
-}
-
 .foot {
     display: flex;
-    flex-direction: row;
-    gap: 1px;
-}
-
-.footObject {
-    display: flex;
     flex-direction: column;
-    gap: 0px;
+
+    justify-content: center;
+    align-items: center;
+
+    gap: 40px;
 }
 
-.logo {
+.footTop {
     width: 50%;
-    height: 50%;
-    /* padding-left: 2%; */
 }
 
-.footObject1 {
-    width: fit-content;
-    padding-left: 2%;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 0.7rem;
+.footMid {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
 }
 
-.list {
-    padding-top: 100%;
+.footBottom {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    font-family: 'Monsterrat', sans-serif;
+}
+
+.foot-logo {
+    width: 253px;
+}
+
+.footDesc {
+    width: 350px;
+
+    font-family: 'Monsterrat', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
 }
 
 .fa-address-book {
@@ -295,25 +301,18 @@ footer {
 
 .btn {
     background-color: var(--button-color);
-    box-shadow: var(--more-info-shadow);
-    border-radius: 20%;
-    width: 150%;
-    height: 15%;
+    color: #fff;
+
+    box-shadow: 1px 3px 4px var(--more-info-shadow);
+    border-radius: 26px;
+    padding: 0.7rem 1.4rem;
+    
+    font-size: 1rem;
+
     border: none;
-    margin-top: 120%;
-    margin-left: 90%;
 }
-
-
-/* 
-#button {
-    padding: 30%;
-} */
 
 .footbar {
     display: flex;
     flex-direction: row;
-    /* justify-content: space-between; */
-    gap: 30px;
-    margin-top: 59%;
 }
