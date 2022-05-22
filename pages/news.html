@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,12 +12,13 @@
 
     <!-- CSS files -->
     <link rel="stylesheet" href="./../css/home.css">
-    <link rel="stylesheet" href="./../css/office_bearers.css">
+    <link rel="stylesheet" href="./../css/news.css">
 
     <!-- Font Awesome CDN -->
     <script src="https://kit.fontawesome.com/48282a42e3.js" crossorigin="anonymous"></script>
 
 </head>
+
 <body>
     <!-- Navbar, Saksham -->
     <header>
@@ -31,7 +33,7 @@
                 <a href="#" class="navlink">
                     <p>ABOUT</p>
                 </a>
-                <a href="./news.html" class="navlink">
+                <a href="#" class="navlink  active">
                     <p>NEWS</p>
                 </a>
                 <a href="#" class="navlink">
@@ -40,7 +42,7 @@
                 <a href="#" class="navlink">
                     <p>EVENTS</p>
                 </a>
-                <a href="#" class="navlink active">
+                <a href="./office_bearers.html" class="navlink">
                     <p>OFFICE BEARERS</p>
                 </a>
             </div>
@@ -52,70 +54,52 @@
         </div>
     </header>
 
-    <!-- Office Bearers Title, Saksham -->
-    <section class="office-bearer-title-section">
-        <h1>Office Bearers</h1>
+    <!-- News Title, Saksham -->
+    <section class="news-title-section">
+        <h1>News</h1>
     </section>
-    
-    <!-- Office Bearers Container, Saksham -->
-    <section class="office-bearer-section">
-        <div class="office-bearers-container">
-            <div class="bearer-card">
-                <img src="./../images/office_bearers/Dr.Balaguru_C.jpg" alt="Dr.Balaguru">
-                <h3>Dr. S. Balaguru</h3>
-                <p>Dean SMEC</p>
-                <a href="mailto:balaguru.s@vithbopal.ac.in">balaguru.s@vithbopal.ac.in</a>
-            </div>
-            <div class="bearer-card">
-                <img src="./../images/office_bearers/Anurag_Gadgil.jpeg" alt="Dr.Balaguru">
-                <h3>Mr. Anurag Gadgil</h3>
-                <p>Chair</p>
-                <a href="mailto:gadgil.anurag2019@vitbhopal.ac.in">gadgil.anurag2019@vitbhopal.ac.in</a>
-            </div>
-            <div class="bearer-card">
-                <img src="./../images/office_bearers/Akshita_Kumar.jpg" alt="Dr.Balaguru">
-                <h3>Ms. Akshita Kumar</h3>
-                <p>Vice Chair</p>
-                <a href="mailto:akshita.kumar2020@vitbhopal.ac.in">akshita.kumar2020@vitbhopal.ac.in</a>
-            </div>
-            <div class="bearer-card">
-                <img src="./../images/office_bearers/Suriya_Murali.jpeg" alt="Dr.Balaguru">
-                <h3>Mr. Suriya Murali</h3>
-                <p>Treasurer</p>
-                <a href="mailto:m.suriya2019@vitbhopal.ac.in">m.suriya2019@vitbhopal.ac.in</a>
-            </div>
-            <div class="bearer-card">
-                <img src="./../images/office_bearers/Lavanya_Basera.JPG" alt="Dr.Balaguru">
-                <h3>Ms. Lavanya Basera</h3>
-                <p>Secretary</p>
-                <a href="mailto:lavanya.basera2021@vitbhopal.ac.in">lavanya.basera2021@vitbhopal.ac.in</a>
-            </div>
-            <div class="bearer-card">
-                <img src="./../images/office_bearers/Yogesh_Narayan.jpeg" alt="Dr.Balaguru">
-                <h3>Mr. Yogesh Narayan</h3>
-                <p>Event Coordinator</p>
-                <a href="mailto:yogesh.narayan2020@vitbhopal.ac.in">yogesh.narayan2020@vitbhopal.ac.in</a>
-            </div>
-            <div class="bearer-card">
-                <img src="./../images/office_bearers/Shri_Hari.jpg" alt="Dr.Balaguru">
-                <h3>Mr. Shri Hari</h3>
-                <p>Spokesperson</p>
-                <a href="mailto:shri.hari2020@vitbhopal.ac.in">shri.hari2020@vitbhopal.ac.in</a>
-            </div>
-            <div class="bearer-card">
-                <img src="./../images/office_bearers/Mohit_Dharmani.jpeg" alt="Dr.Balaguru">
-                <h3>Mr. Mohit Dharmani</h3>
-                <p>PR Coordinator</p>
-                <a href="mailto:mohit.dharmani2020@vitbhopal.ac.in">mohit.dharmani2020@vitbhopal.ac.in</a>
-            </div>
-            <div class="bearer-card">
-                <img src="./../images/office_bearers/Saksham.jpg" alt="Dr.Balaguru">
-                <h3>Mr. Saksham Kathuria</h3>
-                <p>Web Master</p>
-                <a href="mailto:saksham.kathuria2021@vitbhopal.ac.in">saksham.kathuria2021@vitbhopal.ac.in</a>
+
+    <!-- News  -->
+    <div class="container">
+        <div class="elements">
+            <div class="image">
+                <img src="./../images/news/thumbnails/download.jfif" alt="zoom" class="zoom">
             </div>
         </div>
-    </section>
+        <div class="elements description">
+            <p class="date">Date</p><p class="eventTitle">Event Title</p><p class="eventDescription">Description of the event goes here and it can be as big as you like and then at the end it has a link that says.Description of the event goes here and it can be as big as you like and then at the end it has a link that says... <span><a href="javascript:showMore()" id="link">Read More</a></span></p>
+        </div>
+    </div>
+    <div class="container">
+        <div class="elements">
+            <div class="image">
+                <img src="./../images/news/thumbnails/download.jfif" alt="zoom" class="zoom">
+            </div>
+        </div>
+        <div class="elements description">
+            <p class="date">Date</p><p class="eventTitle">Event Title</p><p class="eventDescription">Description of the event goes here and it can be as big as you like and then at the end it has a link that says.Description of the event goes here and it can be as big as you like and then at the end it has a link that says... <span><a href="javascript:showMore()" id="link">Read More</a></span></p>
+        </div>
+    </div>
+    <div class="container">
+        <div class="elements">
+            <div class="image">
+                <img src="./../images/news/thumbnails/download.jfif" alt="zoom" class="zoom">
+            </div>
+        </div>
+        <div class="elements description">
+            <p class="date">Date</p><p class="eventTitle">Event Title</p><p class="eventDescription">Description of the event goes here and it can be as big as you like and then at the end it has a link that says.Description of the event goes here and it can be as big as you like and then at the end it has a link that says... <span><a href="javascript:showMore()" id="link">Read More</a></span></p>
+        </div>
+    </div>
+    <div class="container">
+        <div class="elements">
+            <div class="image">
+                <img src="./../images/news/thumbnails/download.jfif" alt="zoom" class="zoom">
+            </div>
+        </div>
+        <div class="elements description">
+            <p class="date">Date</p><p class="eventTitle">Event Title</p><p class="eventDescription">Description of the event goes here and it can be as big as you like and then at the end it has a link that says.Description of the event goes here and it can be as big as you like and then at the end it has a link that says... <span><a href="javascript:showMore()" id="link">Read More</a></span></p>
+        </div>
+    </div>
 
     <!-- Footer Section, Sanya -->
     <footer>
@@ -157,13 +141,13 @@
                 <div class="footButton" id="button">
                     <button class="btn"><i class="fa-solid fa-address-book arrow"></i> Contact Us</button>
                 </div>
-            </div>    
-                
+            </div>
+
             <div class="footBottom">
                 <p>©2022 Materials Advantage @ VITB</p>
                 <div class="footbar">
                     <div class="bar1">
-                        <a href=""> Home</a> | 
+                        <a href=""> Home</a> |
                     </div>
                     <div class="bar1">
                         <a href="">Site Map</a> |
@@ -178,5 +162,7 @@
             </div>
         </div>
     </footer>
+    <script src="./../src/News.js"></script>
 </body>
+
 </html>
