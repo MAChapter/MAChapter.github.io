@@ -9,6 +9,11 @@ body {
     min-height: 100vh;
 }
 
+h1 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 3.1rem;
+}
 
 /* navbar starts here */
 
@@ -191,19 +196,25 @@ header {
 .events {
     background-color: var(--grey-section-color);
     height: max-content;
+    padding: 4em 0;
 }
 
 .upcoming-events {
-    padding-left: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.details {
-    display: flex;
-    flex-direction: column;
-    gap: 2%;
-    padding-left: 30%;
+.upcoming-events > h1{
+    width: 50%;
+}
 
-    margin: 50px 0 ;
+.details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 20px 0;
 }
 
 .event-list {
@@ -211,10 +222,16 @@ header {
     font-weight: 400;
 
     font-size: 1.4rem;
+
+    width: 50%;
+
+    position: relative;
+
+    left: 4%;
 }
 
 .event-list > li {
-    margin-bottom: 10px;
+    margin: 10px;
 }
 
 .calendar {
@@ -243,30 +260,23 @@ header {
 }
 
 .moreEvents {
-    height: 2rem;
+    height: 2.4rem;
     width: 12rem;
     background-color: #6D89EC;
     color: white;
 }
 
 .More {
-    padding-left: 15%;
-    padding-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-
-
-/* #upcoming {
-    padding-top: 5%;
-} */
 
 
 /* gallery */
 
-h1 {
+.gallery-object > h1 {
     padding-top: 5%;
-    font-family: "Montserrat", sans-serif;
-    font-weight: bold;
-    font-size: 3.1rem;
 }
 
 .galleryContainer {
@@ -376,7 +386,7 @@ footer a {
     display: flex;
     /* justify-content: space-between; */
     gap: 30px;
-    margin-left: 80px;
+    /* margin-left: 80px; */
 }
 
 .list {
