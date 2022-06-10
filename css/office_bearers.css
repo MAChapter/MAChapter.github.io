@@ -35,7 +35,7 @@
 }
 
 .bearer-card {
-    width: 310px;
+    width: 70%;
 
     display: flex;
     flex-direction: column;
@@ -45,7 +45,7 @@
 }
 
 .bearer-card > img {
-    width: 248px;
+    width: 80%;
 
     border-radius: 50%;
 }
@@ -53,14 +53,30 @@
 .bearer-card > h3 {
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
-    font-size: 1.4rem;
+    font-size: 140%;
+    text-align: center;
 }
 
 .bearer-card > p, .bearer-card > a{
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
+    font-size: 100%;
+    text-align: center;
 }
 
 .bearer-card a {
-    font-size: 0.8rem;
+    font-size: 80%;
+}
+
+@media (max-width: 1024px) {
+    .office-bearers-container {
+        width: 100%;
+        grid-template-columns: repeat(2,auto);
+    }
+}
+
+@media (max-width: 560px) {
+    .office-bearers-container {
+        grid-template-columns: repeat(1,auto);
+    }
 }

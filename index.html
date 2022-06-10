@@ -24,7 +24,7 @@
                 <img src="./images/logo/Vellore_Institute_of_Technology__Bhopal__3_-removebg-preview.png" alt="MA logo">
             </div>
             <div class="navbar">
-                <a href="#" class="navlink active">
+                <a href="./index.html" class="navlink active">
                     <p>HOME</p>
                 </a>
                 <a href="#" class="navlink">
@@ -33,7 +33,7 @@
                 <a href="./pages/news.html" class="navlink">
                     <p>NEWS</p>
                 </a>
-                <a href="#" class="navlink">
+                <a href="./pages/membership.html" class="navlink">
                     <p>MEMBERSHIP</p>
                 </a>
                 <a href="./pages/events.html" class="navlink">
@@ -43,21 +43,42 @@
                     <p>OFFICE BEARERS</p>
                 </a>
             </div>
-            <div class="mobile-navbar">
-                <div class="navbutton" id="hamburger">
+            <div id="hamburger" class="mobile-navbar">
+                <div class="navbutton">
                     <i class="fa-solid fa-bars"></i>
                 </div>
             </div>
         </div>
     </header>
-
+    <div id="navbar" class="navbar-mobile">
+        <a href="./index.html" class="navlink active">
+            <p>HOME</p>
+        </a>
+        <a href="#" class="navlink">
+            <p>ABOUT</p>
+        </a>
+        <a href="./pages/news.html" class="navlink">
+            <p>NEWS</p>
+        </a>
+        <a href="./pages/membership.html" class="navlink">
+            <p>MEMBERSHIP</p>
+        </a>
+        <a href="./pages/events.html" class="navlink">
+            <p>EVENTS</p>
+        </a>
+        <a href="./pages/office_bearers.html" class="navlink">
+            <p>OFFICE BEARERS</p>
+        </a>
+    </div>
+    
+    <script src="./src/hamburger.js"></script>
     <!--  Hero Section, Saksham -->
     <!-- add carousel later, for demo purposes a static image has been used -->
     <section class="hero-section">
         <img src="./images/logo/Vellore_Institute_of_Technology__Bhopal__3_-removebg-preview.png" alt="MA logo" srcset="" class="hero-logo">
-        <img class="hero-image" src="./images/hero/hero.jpg" alt="hero image" srcset="">
-        <img class="vit-logo" src="./images/logo/vit_logo.png" alt="vit-logo" srcset="">
-        <img class="asm-logo" src="./images/logo/asm_logo.png" alt="asm-logo" srcset="">
+        <!-- <img class="hero-image" src="./images/hero/hero.jpg" alt="hero image" srcset=""> -->
+        <!-- <img class="vit-logo" src="./images/logo/vit_logo.png" alt="vit-logo" srcset="">
+        <img class="asm-logo" src="./images/logo/asm_logo.png" alt="asm-logo" srcset=""> -->
     </section>
 
     <!-- About Material Advantage, Ishaan -->
@@ -87,7 +108,7 @@
                 <li>Talk by Faculty Advisor about opportunities for members of MA Chapter</li>
             </ul>
 
-<!-- 
+            <!-- 
             <img src="./images/upcoming/4-40683_calendar-clipart-png-transparent-png-removebg-preview.png" class="calendar">
 
             <div class="detail1">
@@ -96,19 +117,17 @@
             </div> -->
         </div>
         <div class="More">
-            <button class="moreEvents abtMAButton">More Events</button>
-
+            <a href="./pages/events.html"><button class="moreEvents abtMAButton">More Events</button></a>
         </div>
     </div>
     <!-- gallery -->
     <div class="galleryContainer">
         <div class="gallery-object">
             <h1>Gallery</h1>
-            <div class="galleryLine"></div>
-            <br><br>
+            <hr>
         </div>
-        <div id="gallery" class="gallery-object">
-            <div class="gallery-object">
+        <div id="gallery">
+            <div class="gallery-images">
                 <img src="./images/gallery/gallery1.jpg">
                 <img src="./images/gallery/gallery2.jpg">
                 <img src="./images/gallery/gallery3.jpg">

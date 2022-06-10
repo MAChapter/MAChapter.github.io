@@ -1,0 +1,231 @@
+.membership-heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: var(--grey-section-color);
+
+    height: 20vh;
+}
+
+.membership-heading > h1 {
+    width: 70%;
+}
+
+.benefits-container > h1 {
+    width: 70%;
+}
+
+.benefits-container {
+    min-height: 400px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 40px;
+
+    padding: 2em 0;
+}
+
+h2 {
+    font-family: 'Monsterrat', sans-serif;
+    font-weight: 400;
+    width: 60%;
+    font-size: 2rem;
+}
+
+.membership-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+
+    padding: 4em 0;
+}
+
+.membership-details > h1{
+    width: 70%;
+}
+
+h1 > hr {
+    width: 100%;
+}
+
+.membership-description {
+    width: 70%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    gap: 20px;
+}
+
+.membership-description > p {
+    font-size: max(1vw,1.2rem);
+}
+
+.list-1 {
+    width: 80%;
+}
+
+.list-1 > li {
+    margin: 1em 0;
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+
+    font-size: 1.2rem;
+}
+
+.membership-card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 20px;
+}
+
+.membership-card {
+    background-color: var(--grey-section-color);
+    width: 50%;
+    min-height: 300px;
+    gap: 10px;
+    padding: 2em;
+
+    border-radius: 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.membership-card li>a {
+    font-family: 'Roboto',sans-serif;
+    color: var(--link-color);
+}
+
+.membership-card p {
+    display: flex;
+    gap: 10px;
+}
+
+.membership-card p > i {
+    color: rgb(7, 185, 7);
+}
+
+.membership-card h2 {
+    width: 100%;
+}
+
+.membership-card ul {
+    list-style-position: inside;
+}
+
+.sign-up {
+    width: fit-content;
+    align-self: center;
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+
+    color: #fff;
+
+    background-color: var(--button-color);
+    padding: 0.5em 1em;
+
+    border-radius: 10px;
+}
+
+.benefits {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    gap: 20px;
+
+    width: 70%;
+}
+
+.benefit-card {
+    width: 28%;
+    text-align: center;
+
+}
+
+.benefit-card h2 {
+    width: 100%;
+}
+
+.note-section {
+    padding: 10px;
+}
+
+.membership-card span {
+    color: #929191;
+}
+
+.fa-money-check-dollar {
+    color: rgb(6, 192, 90);
+}
+
+.fa-plane {
+    color: #AD00FF;
+}
+
+.fa-earth-asia {
+    color: #006BA7;
+}
+
+.fa-envelopes-bulk {
+    color: #006BE8;
+}
+
+.fa-people-group {
+    color: #FF6B00;
+}
+
+.fa-users-viewfinder {
+    color: #340088;
+}
+
+@media (max-width: 1024px) {
+    .membership-card-container {
+        flex-direction: column;
+    }
+
+    .membership-card {
+        width: 100%;
+    }
+
+    .benefit-card {
+        width: 50%;
+    }
+}
+
+@media (max-width: 768px) {
+    
+}
+
+@media (max-width: 560px) {
+    .benefit-card {
+        width: 90%;
+    }
+
+    .benefits {
+        width: 90%;
+    }
+
+    .membership-description {
+        width: 90%;
+    }
+
+    .membership-card {
+        padding: 10px;
+        width: 100%;
+    }
+}
