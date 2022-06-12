@@ -1,0 +1,125 @@
+.hero-section {
+    display: flex;
+    flex-direction: column;
+    column-gap: 0cm;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    height: 10%;
+}
+
+.aboutMaterialAdvantage {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    column-gap: 70%;
+    margin: 4rem, 5rem;
+    color: var(--heading-color);
+}
+
+.aboutMALine {
+    width: 70%;
+    height: 1px;
+    background-color: #B6B5B5;
+    margin-top: 0.4rem;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 45vh;
+    column-gap: 10%;
+    justify-content: center;
+    align-items: center;
+}
+
+.elements {
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    column-gap: 30%;
+}
+
+.aboutMATitle {
+    color: var(--heading-color);
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+    width: 80vw;
+}
+
+.about-MA-Desc {
+    font-family: 'Roboto', sans-serif;
+    color: var(--heading-color);
+    /* width: 100%; */
+    height: 100%;
+}
+
+.btn {
+    background-color: var(--button-color);
+    color: #fff;
+    box-shadow: 1px 3px 4px var(--more-info-shadow);
+    border-radius: 50%, 0;
+    width: 150%;
+    padding: 0.7rem 1.4rem;
+    font-size: 1rem;
+    border: none;
+}
+
+.brandLogos {
+    background-color: var(--grey-section-color);
+    /* width: 100vw; */
+}
+
+.contact {
+    font-family: 'Roboto', sans-serif;
+    color: var(--heading-color);
+    font-size: 1.2rem;
+}
+
+.Socials {
+    display: flex;
+    flex-direction: row;
+    gap: 10%;
+}
+
+.handles {
+    width: 5vw;
+    font-size: 2rem;
+}
+
+@media(max-width:768px) {
+    .elements {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        column-gap: 20%;
+    }
+    .btn {
+        width: 100%;
+    }
+    .about-MA-Desc {
+        width: 100%;
+    }
+    .aboutMATitle {
+        width: 100%;
+    }
+    #contactUsBtn {
+        width: 40%;
+    }
+}
+
+@media(max-width:560px) {
+    .MALogo {
+        width: 70%;
+    }
+    .aboutMATitle {
+        font-size: 1.5rem;
+    }
+    .about-MA-Desc {
+        font-size: 0.9rem;
+    }
+    #contactUsBtn {
+        width: 70%;
+    }
+}
