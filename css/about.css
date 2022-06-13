@@ -98,6 +98,9 @@
     .btn {
         width: 100%;
     }
+    .joinButton {
+        height: 40%;
+    }
     .about-MA-Desc {
         width: 100%;
     }
@@ -107,6 +110,9 @@
     #contactUsBtn {
         width: 40%;
     }
+    .elements {
+        height: 40%;
+    }
 }
 
 @media(max-width:560px) {
@@ -114,12 +120,36 @@
         width: 70%;
     }
     .aboutMATitle {
-        font-size: 1.5rem;
+        font-size: 1.3rem;
+        height: 40%;
+        width: 100%;
     }
     .about-MA-Desc {
-        font-size: 0.9rem;
+        font-size: 0.7rem;
+        height: 40%;
+        width: 100%;
     }
     #contactUsBtn {
         width: 70%;
+    }
+    .handles {
+        font-size: 1.5rem;
+        width: 1vw;
+    }
+    .contact {
+        font-size: 1rem;
+        height: 40%;
+    }
+    .elements {
+        display: flex;
+        flex-direction: column;
+        column-gap: 80%;
+        height: 40%;
+    }
+    .joinButton {
+        height: 40%;
+    }
+    .aboutMaterialAdvantage {
+        margin: 2rem 3rem;
     }
 }
