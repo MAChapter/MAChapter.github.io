@@ -175,17 +175,16 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    column-gap: 35px;
+    gap: 20px;
 }
 
 .abtMAButton {
-    height: 3.2rem;
-    width: 12rem;
+    padding: 0.5rem 2rem;
     border-style: none;
     border-radius: 20px;
     box-shadow: 1px 3px 4px var(--more-info-shadow);
     font-family: "Montserrat", sans-serif;
-    font-size: clamp(0.8rem, 110% ,1.25rem);
+    font-size: clamp(0.8rem, 2vw ,1.25rem);
 }
 
 .abtMAButton:hover {
@@ -586,5 +585,9 @@ footer a {
 
     .event-list {
         width: 90%;
+    }
+
+    .aboutMAButtons {
+        flex-direction: column;
     }
 }

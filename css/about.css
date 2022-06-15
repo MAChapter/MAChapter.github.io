@@ -1,7 +1,6 @@
 .hero-section {
     display: flex;
     flex-direction: column;
-    column-gap: 0cm;
     justify-content: center;
     justify-items: center;
     align-items: center;
@@ -27,8 +26,8 @@
 .container {
     display: flex;
     flex-direction: column;
-    height: 45vh;
-    column-gap: 10%;
+    /* height: 45vh; */
+    gap: 10%;
     justify-content: center;
     align-items: center;
 }
@@ -37,7 +36,10 @@
     width: 65%;
     display: flex;
     flex-direction: column;
-    column-gap: 30%;
+    gap: 20px;
+
+    justify-content: center;
+    align-items: center;
 }
 
 .aboutMATitle {
@@ -45,7 +47,8 @@
     font-family: "Montserrat", sans-serif;
     font-weight: bold;
     font-size: 2rem;
-    width: 80vw;
+    /* width: 80vw; */
+    width: 100%;
 }
 
 .about-MA-Desc {
@@ -64,11 +67,30 @@
     padding: 0.7rem 1.4rem;
     font-size: 1rem;
     border: none;
+
+    width: clamp(2px,100%,150px);
 }
 
 .brandLogos {
     background-color: var(--grey-section-color);
-    /* width: 100vw; */
+    width: 100vw;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.Logos img{
+    width: 100%;
+}
+
+.Logos {
+    width: max(36vw,280px);
+}
+
+.brandLogos img {
+    width: 20%;
 }
 
 .contact {
@@ -78,14 +100,32 @@
 }
 
 .Socials {
+    width: 70%;
     display: flex;
     flex-direction: row;
-    gap: 10%;
+    justify-content: center;
+    column-gap: max(10%,40px);
 }
 
 .handles {
-    width: 5vw;
     font-size: 2rem;
+}
+
+.joinButton .btn{
+    width: 100%;
+}
+
+.container {
+    height: fit-content;
+    padding: 4rem;
+
+    gap: 3rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.elements h1 {
+    width: 100%;
 }
 
 @media(max-width:768px) {
@@ -94,9 +134,6 @@
         display: flex;
         flex-direction: column;
         column-gap: 20%;
-    }
-    .btn {
-        width: 100%;
     }
     .joinButton {
         height: 40%;
@@ -107,11 +144,14 @@
     .aboutMATitle {
         width: 100%;
     }
-    #contactUsBtn {
-        width: 40%;
-    }
     .elements {
         height: 40%;
+    }
+    .brandLogos img{
+        width: 40%;
+    }
+    .container {
+        padding: 4rem 1rem;
     }
 }
 
@@ -128,9 +168,6 @@
         font-size: 0.7rem;
         height: 40%;
         width: 100%;
-    }
-    #contactUsBtn {
-        width: 70%;
     }
     .handles {
         font-size: 1.5rem;

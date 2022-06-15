@@ -103,6 +103,14 @@ h1 > hr {
     justify-content: space-around;
 }
 
+.card1 {
+    width: 60%;
+}
+
+.card2 {
+    width: 40%;
+}
+
 .membership-card li>a {
     font-family: 'Roboto',sans-serif;
     color: var(--link-color);
