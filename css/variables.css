@@ -15,4 +15,5 @@ font-family: 'Roboto', sans-serif;
     --heading-color: #000000;
     --body-color: #5C5C5C;
     --grey-section-color: #DFDFDF;
+    --section-width: 60%;
 }

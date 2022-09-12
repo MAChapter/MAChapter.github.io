@@ -166,7 +166,7 @@ header {
 .aboutMADesc {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
-    font-size: clamp(1rem, 1.8vw,2rem);
+    font-size: clamp(1rem, 1.8vw,1.2rem);
     color: var(--body-color);
     text-align: justify;
 }

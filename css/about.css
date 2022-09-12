@@ -1,3 +1,7 @@
+body {
+    overflow-x: hidden;
+}
+
 .hero-section {
     display: flex;
     flex-direction: column;
@@ -63,7 +67,8 @@
 .about-MA-Desc {
     font-family: 'Roboto', sans-serif;
     color: var(--heading-color);
-    /* width: 100%; */
+    font-size: clamp(1rem,1.5vw,1.5rem);
+    width: 100%;
     height: 100%;
 }
 
@@ -97,7 +102,6 @@
 .Logos {
     width: max(36vw,280px);
 }
-
 .brandLogos img {
     width: 20%;
 }
@@ -174,7 +178,6 @@
         width: 100%;
     }
     .about-MA-Desc {
-        font-size: 0.7rem;
         height: 40%;
         width: 100%;
     }
